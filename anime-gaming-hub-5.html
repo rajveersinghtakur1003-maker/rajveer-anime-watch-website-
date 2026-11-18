@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#071326">
+<title>Anime × Gaming Hub</title>
+<style>
+:root{--bg:#050b18;--panel:#0b1930;--panel2:#102542;--cyan:#35d9ff;--blue:#527dff;--text:#eef7ff;--muted:#9bb0ca;--line:#1d3c60}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#102e5a 0%,transparent 40%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,Segoe UI,sans-serif}
+header{position:sticky;top:0;z-index:10;background:#071326eF;backdrop-filter:blur(12px);border-bottom:1px solid var(--line);padding:13px 16px}
+.nav{max-width:1100px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}.brand{font-weight:900;letter-spacing:.5px;color:white}.brand span{color:var(--cyan)}nav{display:flex;gap:8px;flex-wrap:wrap}nav a{color:var(--muted);text-decoration:none;font-size:13px;padding:7px 10px;border-radius:9px}nav a:hover{background:var(--panel2);color:var(--cyan)}
+main{max-width:1100px;margin:auto;padding:22px 16px 70px}.hero{min-height:290px;border:1px solid #23517a;border-radius:22px;padding:28px;display:flex;align-items:center;background:linear-gradient(115deg,#0a1d39ee,#0b2850dd),radial-gradient(circle at 85% 50%,#1b8bba,transparent 35%);box-shadow:0 0 40px #168bba20;overflow:hidden}.hero h1{font-size:clamp(34px,7vw,64px);line-height:1.02;margin:10px 0}.hero p{color:#c2d8f2;max-width:550px}.eyebrow{color:var(--cyan);font-weight:800;letter-spacing:2px;font-size:12px}.btn{display:inline-block;background:linear-gradient(100deg,var(--blue),#05aeca);color:#04101e;text-decoration:none;font-weight:800;border:0;border-radius:10px;padding:11px 16px;cursor:pointer}.btn.secondary{background:#102744;color:var(--cyan);border:1px solid #28618b}.section{margin-top:34px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:10px;margin-bottom:14px}.section h2{margin:0;font-size:25px}.muted{color:var(--muted);font-size:14px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px}.card{background:linear-gradient(145deg,var(--panel),#081426);border:1px solid var(--line);border-radius:16px;padding:16px;min-width:0}.poster{height:112px;border-radius:12px;margin-bottom:12px;display:grid;place-items:center;font-size:42px;background:linear-gradient(135deg,#123c68,#17204a 55%,#07556c);border:1px solid #28547b}.card h3{margin:5px 0 7px}.card p{color:var(--muted);font-size:13px;min-height:38px}.tag{display:inline-block;color:var(--cyan);font-size:11px;border:1px solid #24618a;border-radius:20px;padding:4px 8px;margin-bottom:5px}
+.gamebox{background:linear-gradient(145deg,#0b1b34,#091426);border:1px solid var(--line);border-radius:18px;padding:18px}.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:14px}.tab{background:#102744;border:1px solid #24486c;color:var(--muted);padding:9px 12px;border-radius:9px;cursor:pointer}.tab.active{color:#06101c;background:var(--cyan);font-weight:800}.board{display:grid;grid-template-columns:repeat(3,minmax(65px,90px));gap:8px;margin:14px 0}.cell{height:76px;border:1px solid #28547b;border-radius:12px;background:#0d2442;color:var(--cyan);font-size:32px;font-weight:900;cursor:pointer}.memory{display:grid;grid-template-columns:repeat(4,minmax(50px,75px));gap:8px;margin:14px 0}.tile{height:65px;border-radius:10px;background:#102c50;border:1px solid #2c5b83;color:var(--cyan);font-size:24px;cursor:pointer}.tile.done{opacity:.45;cursor:default}.profile{display:flex;align-items:center;gap:16px;flex-wrap:wrap}.avatar{width:88px;height:88px;border-radius:50%;border:2px solid var(--cyan);display:grid;place-items:center;font-size:35px;background:#112e50}.footer{border-top:1px solid var(--line);margin-top:40px;padding-top:20px;color:var(--muted);font-size:12px;text-align:center}input{background:#071326;color:white;border:1px solid var(--line);padding:10px;border-radius:9px;max-width:100%}
+@media(max-width:600px){.hero{padding:22px;min-height:260px}.section h2{font-size:22px}nav{width:100%;justify-content:space-between}nav a{padding:6px 5px}.cell{height:68px}}
+</style>
+</head>
+<body>
+<header><div class="nav"><div class="brand">ANIME <span>×</span> GAMING HUB</div><nav><a href="#anime">Anime</a><a href="#games">Games</a><a href="#profile">My Profile</a></nav></div></header>
+<main>
+<section class="hero"><div><div class="eyebrow">WELCOME TO MY WORLD</div><h1>ANIME ×<br><span style="color:var(--cyan)">GAMING HUB</span></h1><p>Anime vibes, mini games and my creator profile — all in one place. Explore the hub!</p><a class="btn" href="#anime">Explore Anime</a> <a class="btn secondary" href="#games">Play Games</a></div></section>
+
+<section class="section" id="anime"><div class="section-head"><div><div class="eyebrow">WATCH CORNER</div><h2>Anime Zone</h2><div class="muted">Official channels and licensed viewing options</div></div></div>
+<div class="grid">
+<article class="card"><div class="poster">⚔️</div><span class="tag">OFFICIAL CHANNEL</span><h3>Muse India</h3><p>Check the official India anime collection. Available shows and languages can change.</p><a class="btn" target="_blank" rel="noopener" href="https://www.youtube.com/channel/UC2R8r6G52fnBe6dSS1Gy4yQ/">Open Channel ↗</a></article>
+<article class="card"><div class="poster">🌌</div><span class="tag">OFFICIAL CHANNEL</span><h3>Muse Asia</h3><p>Browse officially licensed anime uploads. Some titles may have regional limits.</p><a class="btn" target="_blank" rel="noopener" href="https://www.youtube.com/channel/UCGbshtvS9t-8CW11W7TooQg/">Open Channel ↗</a></article>
+<article class="card"><div class="poster">🎬</div><span class="tag">ANIME DISCOVERY</span><h3>Find an Anime</h3><p>Search for a title and check its official streaming availability in your region.</p><a class="btn secondary" target="_blank" rel="noopener" href="https://www.crunchyroll.com/">Explore Crunchyroll ↗</a></article>
+</div></section>
+
+<section class="section" id="games"><div class="section-head"><div><div class="eyebrow">PLAY AREA</div><h2>Gaming Zone</h2><div class="muted">Try these mini-games right here</div></div></div>
+<div class="gamebox"><div class="tabs"><button class="tab active" id="tttTab" onclick="showGame('ttt')">Tic-Tac-Toe</button><button class="tab" id="memTab" onclick="showGame('mem')">Memory Match</button></div>
+<div id="tttGame"><h3>Tic-Tac-Toe</h3><div class="muted" id="tttStatus">Your turn: X</div><div class="board" id="board"></div><button class="btn secondary" onclick="resetTTT()">Restart Game</button></div>
+<div id="memGame" hidden><h3>Memory Match</h3><div class="muted" id="memStatus">Find all matching pairs.</div><div class="memory" id="memoryBoard"></div><button class="btn secondary" onclick="startMemory()">New Game</button></div>
+</div></section>
+
+<section class="section" id="profile"><div class="section-head"><div><div class="eyebrow">CREATOR PROFILE</div><h2>My Profile</h2></div></div>
+<div class="card profile"><div class="avatar">👑</div><div><h3 style="margin:0 0 4px">SMARTY RAJVEER</h3><div class="muted">Anime Lover • Video Editor • Gaming Fan</div><p class="muted">Welcome to my Anime × Gaming world!</p><a class="btn" target="_blank" rel="noopener" href="https://www.instagram.com/SAMRTY__RAJVEER_FF__KING/">Instagram Profile ↗</a></div></div>
+<p class="muted">Profile photo can be added later by replacing the 👑 avatar with your chosen image. Avoid publishing your home address, phone number, school, or other private details.</p></section>
+<div class="footer">© 2026 Anime × Gaming Hub • Made for anime and gaming fans</div>
+</main>
+<script>
+let cells=Array(9).fill(''),turn='X',ended=false;
+function drawTTT(){const b=document.getElementById('board');b.innerHTML='';cells.forEach((v,i)=>{let x=document.createElement('button');x.className='cell';x.textContent=v;x.setAttribute('aria-label','Square '+(i+1)+' '+(v||'empty'));x.onclick=()=>move(i);b.appendChild(x)})}
+function move(i){if(cells[i]||ended)return;cells[i]=turn;drawTTT();let wins=[[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];let win=wins.some(a=>a.every(n=>cells[n]===turn));if(win){document.getElementById('tttStatus').textContent=turn+' wins!';ended=true}else if(cells.every(Boolean)){document.getElementById('tttStatus').textContent='It is a draw!';ended=true}else{turn=turn==='X'?'O':'X';document.getElementById('tttStatus').textContent='Your turn: '+turn}}
+function resetTTT(){cells=Array(9).fill('');turn='X';ended=false;document.getElementById('tttStatus').textContent='Your turn: X';drawTTT()}
+function showGame(which){document.getElementById('tttGame').hidden=which!=='ttt';document.getElementById('memGame').hidden=which!=='mem';document.getElementById('tttTab').classList.toggle('active',which==='ttt');document.getElementById('memTab').classList.toggle('active',which==='mem');if(which==='mem'&&!document.getElementById('memoryBoard').children.length)startMemory()}
+let first=null,lock=false,matches=0;
+function startMemory(){let a=['🐉','⚡','🎮','🌙','🐉','⚡','🎮','🌙'].sort(()=>Math.random()-.5);first=null;lock=false;matches=0;document.getElementById('memStatus').textContent='Find all matching pairs.';let b=document.getElementById('memoryBoard');b.innerHTML='';a.forEach((v,i)=>{let t=document.createElement('button');t.className='tile';t.textContent='?';t.dataset.value=v;t.onclick=()=>flip(t);b.appendChild(t)})}
+function flip(t){if(lock||t.classList.contains('done')||t===first||t.textContent!=='?')return;t.textContent=t.dataset.value;if(!first){first=t;return}if(first.dataset.value===t.dataset.value){first.classList.add('done');t.classList.add('done');first=null;matches++;if(matches===4)document.getElementById('memStatus').textContent='You matched every pair! 🎉'}else{lock=true;let old=first;first=null;setTimeout(()=>{old.textContent='?';t.textContent='?';lock=false},700)}}
+drawTTT();
+</script>
+</body></html>
